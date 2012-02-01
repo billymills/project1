@@ -29,7 +29,8 @@ Feb 3 2012
 			 -webkit-border-radius: 6px 6px 6px 6px;
 			}
 			#body_container {
-			background:#909090;
+			background:#606060;
+			margin-top:5px;
 			min-height:500px;
 			-webkit-border-radius: 6px 6px 6px 6px;
 			}
@@ -40,12 +41,33 @@ Feb 3 2012
 			margin-bottom;5px;
 			-webkit-border-radius: 6px 6px 6px 6px;
 			}
+			body {
+        padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+				background-color: #71F7A0;
+      }
 			
 		</style>
 		<title>project 1</title>
 	</head>
 	<body>
-		<!--begin modal-->
+		<div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Project name</a>
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <form action="" class="pull-right">
+            <input class="input-small" type="text" placeholder="Username">
+            <input class="input-small" type="password" placeholder="Password">
+            <button class="btn" type="submit">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+		<!--begin modal--
 		<div id="modal-from-dom" class="modal hide fade">
       <div class="modal-header">
         <a href="#" class="close">&times;</a>
@@ -59,7 +81,7 @@ Feb 3 2012
         <a href="#" class="btn secondary">Secondary</a>
       </div>
     </div>
-		<!--end modal-->
+		
 		<div class="container">
       <label>Tell me your name:</label>
       <input id="name" type="text"/>
@@ -68,6 +90,13 @@ Feb 3 2012
 	      data-keyboard="true"
 	      class="btn danger">Click Me</button>
     </div>
+		<!--end modal-->
+		
+		<div id="body_container" class="container">
+			<div class="content">
+				stuff
+			</div>
+		</div>
 		
 		<div id="head_container" class="container">
 			<div class="row">
@@ -85,13 +114,12 @@ Feb 3 2012
 				</div>
 			</div>
 		</div>
-		<div id="body_container" class="container">
-			<div class="content">
-				stuff
-			</div>
-		</div>
+		
+		<!--
 		<div id="footer_container" class="container">
 			stuff
 		</div>
+		-->
+	
 	</body>
 </html>
