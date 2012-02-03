@@ -13,48 +13,46 @@ Feb 3 2012
 		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="stylesheets/project1.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>
-    <script>
+	<script src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>
+	<script>
 			$(document).ready(function() {
 				$("#modal-from-dom").bind('show', function() {
 				var name = $("#name").val();
 				$("#name_header").text("Hello, " + name);
 				});
 			});
-    </script>
-		<style>
-			
-		</style>
+	</script>
 		<title>project 1</title>
 	</head>
 	<body>
 		<div class="topbar">
-      <div class="fill">
-        <div class="container">
+			<div class="fill">
+				<div class="container">
 					<a class="brand" href="#">north.asheville.lego.supreme</a>
 					
-          
+          <!--
           <ul class="nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <form action="" class="pull-right">
-            <input class="input-small" type="text" placeholder="Username">
-            <input class="input-small" type="password" placeholder="Password">
-            <button class="btn" type="submit">Sign in</button>
-          </form>
-        </div>
-      </div>
-    </div>
-		<!--begin modal--
+		-->
+					<form action="#" class="pull-right">
+						<input class="input-small" type="text" placeholder="Username">
+						<input class="input-small" type="password" placeholder="Password">
+						<button class="btn" type="submit">Sign in</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--begin modal
 		<div id="modal-from-dom" class="modal hide fade">
       <div class="modal-header">
         <a href="#" class="close">&times;</a>
         <h3 id="name_header"></h3>
       </div>
       <div class="modal-body">
-        <p>One fine body…</p>
+        <p>One fine body</p>
       </div>
       <div class="modal-footer">
         <a href="#" class="btn primary">Primary</a>
@@ -70,40 +68,40 @@ Feb 3 2012
 	      data-keyboard="true"
 	      class="btn danger">Click Me</button>
     </div>
-		<!--end modal-->
+		end modal-->
 		
 		<div id="body_container" class="container">
 			<div class="row">
-				<div id="pictures" class="span2 offset1">
-					<img src="pictures/imagine.jpg"/>
+				<div class="span2 offset1">
+					<img src="pictures/imagine.jpg" alt="blue"/>
 				</div>
-				<div id="pictures" class="span2 offset3">
-					<img src="pictures/build.jpg"/>
+				<div class="span2 offset3">
+					<img src="pictures/build.jpg" alt="green"/>
 				</div>
-				<div id="pictures" class="span2 offset3">
-					<img src="pictures/share.jpg"/>
+				<div class="span2 offset3">
+					<img src="pictures/share.jpg" alt="yellow"/>
 				</div>
-			</div>
+			</div> <!--end row-->
 			
 			<div class="row">
-				<div id="pictures" class="span2 offset2">
+				<div class="span2 offset2">
 					<div class="media-grid">
 						<img src="pictures/blue.png" alt="">
 					</div>
 				</div>
-				<div id="pictures" class="span2 offset3">
+				<div class="span2 offset3">
 					<div class="media-grid">
 						<img src="pictures/green.png" alt="">
 					</div>
 				</div>
-				<div id="pictures" class="span2 offset3">
+				<div class="span2 offset3">
 					<div class="media-grid">
 						<img src="pictures/120px_yellow_lego.png" alt="">
 					</div>
 				</div>
 			</div> <!--end row-->	
 			<div class="row">
-				<div id="writing" class="span4 offset1">
+				<div id="writing1" class="span4 offset1">
 					<p>Suspendisse bibendum a, imperdiet sapien. Donec faucibus ipsum primis in felis 
 					a augue eget egestas non, rhoncus nunc, rhoncus vel, lacinia accumsan id, ullamcorper 
 					risus. Cras porta, metus nisl auctor tincidunt. Nulla congue. Donec ligula eget dolor 
@@ -111,7 +109,7 @@ Feb 3 2012
 					Praesent sollicitudin, lectus.
 					</p>
 				</div>
-				<div id="writing" class="span4 offset1">
+				<div id="writing2" class="span4 offset1">
 					<p>Suspendisse bibendum a, imperdiet sapien. Donec faucibus ipsum primis in felis 
 					a augue eget egestas non, rhoncus nunc, rhoncus vel, lacinia accumsan id, ullamcorper 
 					risus. Cras porta, metus nisl auctor tincidunt. Nulla congue. Donec ligula eget dolor 
@@ -119,7 +117,7 @@ Feb 3 2012
 					Praesent sollicitudin, lectus.
 					</p>
 				</div>
-				<div id="writing" class="span4 offset1">
+				<div id="writing3" class="span4 offset1">
 					<p>Suspendisse bibendum a, imperdiet sapien. Donec faucibus ipsum primis in felis 
 					a augue eget egestas non, rhoncus nunc, rhoncus vel, lacinia accumsan id, ullamcorper 
 					risus. Cras porta, metus nisl auctor tincidunt. Nulla congue. Donec ligula eget dolor 
@@ -127,27 +125,19 @@ Feb 3 2012
 					Praesent sollicitudin, lectus.
 					</p>
 				</div>
-			</div>
+			</div> <!--end row-->
 		</div> <!--end main container-->
-		
-		
+	<!--bottom nav section starts here-->
 		<div class="container">
-			
-				<div class="center">
-					
-					<ul class="pills">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Links</a></li>
-						<li><a href="#">Register</a></li>
-						<li><a href="#">Contact</a></li>
-						
-					</ul>
-					
-				</div>
+			<div class="center">
+				<ul class="pills">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Links</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>	
+			</div>
 		</div>
-		
-		
-	
 	</body>
 </html>
