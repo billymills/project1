@@ -51,7 +51,7 @@ h2, h3, h4 {
 .center {
 	margin-left: auto;   
 	margin-right: auto;   
-	width: 25em; 
+	width: 30em; 
 }
 #writing {
 	color:white;
@@ -59,7 +59,7 @@ h2, h3, h4 {
 .pills{
 	margin:0 0 18px;
 	padding:0;
-	list-style:none;zoom:1;
+	/*list-style:none;zoom:1;*/
 }
 .tabs:before,.pills:before,.tabs:after,.pills:after{
 	display:table;
@@ -70,9 +70,10 @@ h2, h3, h4 {
 }
 .tabs>li,.pills>li{
 	float:left;
+	
 }
 .tabs>li>a,.pills>li>a{
-display:block;
+	display:block;
 }
 .tabs{
 	border-color:#ddd;
@@ -126,27 +127,28 @@ display:block;
 	margin:5px 3px 5px 0;
 	padding:0 15px;
 	line-height:30px;
-	text-shadow:0 1px 1px #ffffff;
-	-webkit-border-radius:15px;
-	-moz-border-radius:15px;
-	border-radius:15px;
+	/*text-shadow:0 1px 1px #ffffff;*/
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	color:white;
+	text-shadow:none;
 }
 .pills a:hover{
 	color:#ffffff;
 	text-decoration:none;
-	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+	/*text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);*/
 	/*background-color:#00438a;*/
-	background-color:#33cc00;
+	background-color:#111111;
 }
 .pills .active a{
 	color:#ffffff;
-	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);
+	/*text-shadow:0 1px 1px rgba(0, 0, 0, 0.25);*/
 	/*background-color:#0069d6;*/
 	background-color:#222222;
 }
-.pills-vertical>li{
-	float:none;
-}
+l
+
 
 
 			
