@@ -113,14 +113,22 @@ Feb 3 2012
 		</div> <!--end main container-->
 	<!--bottom nav section starts here-->
 		<div class="container">
-			<div class="center">
-				<ul class="pills">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Links</a></li>
-					<li><a href="#">Register</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>	
+			<div class="row">
+				<div class="span8 offset1">
+					<ul class="pills">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Register</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="span5 offset2">
+					<input class="input-medium" type="text" placeholder="Search">
+						<button 	data-controls-modal="modal-from-dom"
+								data-backdrop="true"
+								data-keyboard="true" class="btn" type="submit">Go!</button>
+				</div>
 			</div>
 		</div>	
 	</body>
