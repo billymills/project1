@@ -42,7 +42,7 @@ p {
 .topbar {
 	border-bottom:1px solid #33ff00;
 }
-h2, h3, h4 {
+h2, h4 {
 	color:white;
 }
 .row{
@@ -51,7 +51,7 @@ h2, h3, h4 {
 .center {
 	margin-left: auto;   
 	margin-right: auto;   
-	width: 30em; 
+	width: 33em; 
 }
 #writing1, #writing2, #writing3{
 	color:white;
@@ -124,7 +124,7 @@ h2, h3, h4 {
 	border-top-color:#555;
 }
 .pills a{
-	margin:5px 3px 5px 0;
+	margin:5px 15px 5px 0;
 	padding:0 15px;
 	line-height:30px;
 	/*text-shadow:0 1px 1px #ffffff;*/
